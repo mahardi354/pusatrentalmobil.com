@@ -39,7 +39,7 @@
   --radius:12px;--radius-lg:20px;
   --shadow:0 4px 24px rgba(192,57,43,.10);
   --shadow-lg:0 8px 40px rgba(192,57,43,.16);
-  --wa:#25D366;--wa-dk:#128C7E;
+  --wa:#0F7D3D;--wa-dk:#0B5C2D;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;overflow-x:hidden}
@@ -52,7 +52,7 @@ img{max-width:100%;height:auto;display:block}
 
 .badge{display:inline-flex;align-items:center;gap:6px;background:var(--primary-lt);color:var(--primary);font-size:.78rem;font-weight:700;padding:5px 14px;border-radius:99px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.06em;width:fit-content;margin-left:auto;margin-right:auto}
 .badge-accent{background:var(--accent-lt);color:#7D6608;margin-left:auto;margin-right:auto}
-.badge-success{background:#D5F5E3;color:#1E8449;margin-left:auto;margin-right:auto}
+.badge-success{background:#D5F5E3;color:#176236;margin-left:auto;margin-right:auto}
 .section-head{text-align:center;max-width:620px;margin:0 auto 8px;display:flex;flex-direction:column;align-items:center;width:100%}
 .section-head h2{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:800;margin-bottom:12px}
 .section-head p{font-size:.97rem;color:var(--gray);max-width:100%;padding:0 4px}
@@ -72,7 +72,7 @@ img{max-width:100%;height:auto;display:block}
 .logo-icon{width:36px;height:36px;background:var(--primary);color:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0}
 .header-wa{background:var(--wa);color:#fff;padding:10px 20px;border-radius:var(--radius);font-weight:700;font-size:.88rem;display:flex;align-items:center;gap:8px;transition:.2s}
 .header-wa:hover{background:var(--wa-dk)}
-.breadcrumb{padding:12px 0;font-size:.82rem;color:var(--lgray)}.breadcrumb a{color:var(--primary)}.breadcrumb span{margin:0 6px}
+.breadcrumb{padding:12px 0;font-size:.82rem;color:var(--lgray)}.breadcrumb a{color:var(--primary);text-decoration:underline;text-decoration-color:rgba(192,57,43,.35)}.breadcrumb span{margin:0 6px}
 
 #hero{background:linear-gradient(135deg,#1A1A2E 0%,#C0392B 60%,#922B21 100%);color:#fff;padding:80px 0 72px;position:relative;overflow:hidden}
 #hero::before{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M40 0l40 40-40 40L0 40z'/%3E%3C/g%3E%3C/svg%3E")}
@@ -187,7 +187,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.7);padding:40px 0 22px}
 .footer-brand p{font-size:.83rem;margin-top:10px}
 footer h3{color:#fff;font-size:.9rem;margin-bottom:10px}
 footer ul{list-style:none;display:flex;flex-direction:column;gap:7px}
-footer ul li a{font-size:.82rem;color:rgba(255,255,255,.6);transition:.2s}
+footer ul li a{font-size:.82rem;color:rgba(255,255,255,.6);transition:.2s;text-decoration:underline;text-decoration-color:rgba(255,255,255,.25)}
 footer ul li a:hover{color:#fff}
 .footer-copy{border-top:1px solid rgba(255,255,255,.1);padding-top:18px;text-align:center;font-size:.78rem}
 
@@ -237,7 +237,7 @@ footer ul li a:hover{color:#fff}
     <div class="hero-grid">
       <div class="hero-content">
         <p class="hero-label">🚗 Tersedia di Rowokele, Kebumen</p>
-        <h1 class="hero-title">Rental Mobil <span class="highlight">Rowokele</span> – Lepas Kunci, Siap Jalan</h1>
+        <h1 class="hero-title">Jasa Sewa Mobil di <span class="highlight">Rowokele</span> – Tersedia Harian, Mingguan, Bulanan</h1>
         <p class="hero-sub">Butuh mobil di Rowokele, Kebumen? Kami siap kirim ke depan rumah. Harga mulai Rp 150.000/hari.</p>
         <div class="hero-cta-group">
           <a href="https://wa.me/6285137396984?text=Halo%2C%20saya%20mau%20rental%20mobil%20di%20Rowokele" target="_blank" rel="noopener" class="btn btn-wa btn-lg" aria-label="Pesan rental mobil di Rowokele via WhatsApp">
@@ -271,9 +271,9 @@ footer ul li a:hover{color:#fff}
     <div class="unique-intro-wrap">
       <div class="unique-intro-icon">🚗</div>
       <div>
-        <h2 class="unique-intro-title">Armada Lengkap untuk Semua Kebutuhan di Rowokele</h2>
-        <p class="unique-intro-text">Setiap orang punya kebutuhan sewa mobil yang berbeda. Ada yang butuh city car untuk perjalanan dalam kota Rowokele, ada yang perlu MPV untuk bepergian bersama keluarga, dan ada yang membutuhkan SUV untuk medan yang lebih menantang di luar kota. RentCar Pro menyediakan beragam pilihan armada untuk mengakomodasi semua kebutuhan tersebut dengan harga yang kompetitif.</p>
-        <p class="unique-intro-text" style="margin-top:10px">Mulai dari Toyota Avanza yang populer untuk keluarga, Honda Jazz untuk perjalanan personal, hingga Toyota Fortuner untuk tampilan yang lebih prestisius — semuanya tersedia di RentCar Pro dan bisa dipesan dari Rowokele. Pilihan dengan atau tanpa sopir juga kami sediakan sesuai preferensi Anda. Hubungi kami sekarang untuk cek ketersediaan kendaraan!</p>
+        <h2 class="unique-intro-title">Jangkauan Layanan RentCar Pro di Rowokele dan Sekitarnya</h2>
+        <p class="unique-intro-text">Tim RentCar Pro sudah sangat familiar dengan seluruh wilayah Rowokele dan desa-desa sekitarnya. Kami melayani pengiriman kendaraan langsung ke alamat pelanggan di seluruh area Rowokele tanpa biaya tambahan. Hal ini memudahkan pelanggan yang tidak ingin repot mengambil kendaraan sendiri ke kantor kami — cukup konfirmasi pemesanan dan mobil akan tiba di depan pintu Anda.</p>
+        <p class="unique-intro-text" style="margin-top:10px">Selain melayani pelanggan di Rowokele, kami juga melayani area-area terdekat di Kebumen. Biaya pengiriman untuk area di luar Rowokele sangat terjangkau dan akan dikonfirmasi saat pemesanan. Tidak perlu khawatir soal jarak — selama masih dalam Kebumen, kami siap melayani Anda. Hubungi kami via WhatsApp untuk informasi lebih lanjut.</p>
       </div>
     </div>
   </div>
@@ -282,7 +282,7 @@ footer ul li a:hover{color:#fff}
   <div class="container">
     <div class="section-head">
       <div class="badge">🚗 Pilihan Armada</div>
-      <h2>Armada & Layanan Rental Mobil di Rowokele</h2>
+      <h2>Semua Jenis Kendaraan Tersedia di Rowokele</h2>
       <p>Semua kendaraan terawat, ber-AC, dilengkapi asuransi dasar, dan siap dikirim ke lokasi Anda di Rowokele.</p>
     </div>
     <div class="fleet-grid">
@@ -364,7 +364,7 @@ footer ul li a:hover{color:#fff}
   <div class="container">
     <div class="section-head">
       <div class="badge badge-accent">🚗 Kebutuhan Anda</div>
-      <h2>Situasi yang Bikin Anda Perlu Menyewa Mobil di Rowokele</h2>
+      <h2>Kenapa Banyak Orang Butuh Rental Mobil di Rowokele?</h2>
       <p>Apapun kebutuhannya, RentCar Pro siap menyediakan kendaraan yang tepat dengan harga yang transparan.</p>
     </div>
     <div class="pain-grid"><div class="pain-card"><div class="pain-icon">🏖️</div><div class="pain-text"><h3>Liburan Keluarga</h3><p>Butuh kendaraan lega dan nyaman untuk wisata bersama keluarga tanpa harus bergantung jadwal bus atau travel.</p></div></div><div class="pain-card"><div class="pain-icon">💼</div><div class="pain-text"><h3>Perjalanan Bisnis</h3><p>Tampil profesional saat meeting dengan kendaraan bersih dan representatif. Bisa dikemudikan sendiri atau dengan sopir.</p></div></div><div class="pain-card"><div class="pain-icon">💒</div><div class="pain-text"><h3>Acara Pernikahan</h3><p>Butuh armada ekstra untuk resepsi, mengangkut tamu, atau keperluan prosesi. Tersedia paket khusus event.</p></div></div><div class="pain-card"><div class="pain-icon">🏗️</div><div class="pain-text"><h3>Keperluan Proyek</h3><p>Operasional proyek butuh kendaraan yang reliable setiap hari. Tersedia paket bulanan dengan tarif lebih hemat.</p></div></div><div class="pain-card"><div class="pain-icon">🚗</div><div class="pain-text"><h3>Mobil Pribadi Servis</h3><p>Kendaraan sedang di bengkel? Kami sediakan mobil pengganti sementara agar mobilitas Anda tidak terganggu.</p></div></div><div class="pain-card"><div class="pain-icon">👨‍👩‍👧</div><div class="pain-text"><h3>Tamu dari Luar Kota</h3><p>Ada keluarga atau kolega yang berkunjung? Sediakan kendaraan nyaman agar mereka merasa disambut dengan baik.</p></div></div></div>
@@ -377,7 +377,7 @@ footer ul li a:hover{color:#fff}
   <div class="container">
     <div class="section-head">
       <div class="badge">🏆 Keunggulan Kami</div>
-      <h2>Keunggulan RentCar Pro untuk Rental Mobil di Rowokele</h2>
+      <h2>Bukti Kepercayaan Pelanggan Rental Mobil Rowokele</h2>
       <p>Bukan sekadar klaim — ini adalah standar yang kami pegang teguh di setiap transaksi rental.</p>
     </div>
     <div class="why-grid"><div class="why-card"><div class="why-num">01</div><h3>Berpengalaman 10 Tahun</h3><p>Sejak 2016 kami telah melayani ribuan pelanggan rental mobil di Kebumen dan sekitarnya.</p></div><div class="why-card"><div class="why-num">02</div><h3>Armada Terawat & Bersih</h3><p>Setiap kendaraan dicek kondisi mesin, ban, rem, dan kebersihan interior sebelum diserahkan.</p></div><div class="why-card"><div class="why-num">03</div><h3>Harga All-In Transparan</h3><p>Harga yang kami sampaikan adalah harga final. Tidak ada biaya tambahan yang mengejutkan saat pengembalian.</p></div><div class="why-card"><div class="why-num">04</div><h3>Gratis Antar-Jemput</h3><p>Kami antar kendaraan ke depan pintu Anda di Rowokele tanpa biaya tambahan.</p></div><div class="why-card"><div class="why-num">05</div><h3>Asuransi Dasar Termasuk</h3><p>Semua paket sewa sudah dilengkapi asuransi kendaraan dasar untuk ketenangan pikiran selama perjalanan.</p></div><div class="why-card"><div class="why-num">06</div><h3>Responsif 24 Jam</h3><p>Tim kami selalu siap merespons pertanyaan dan pemesanan. WhatsApp kami aktif setiap hari, termasuk hari libur.</p></div></div>
@@ -428,7 +428,7 @@ footer ul li a:hover{color:#fff}
         <p class="testi-text">"Sudah 3 kali sewa Avanza di RentCar Pro untuk keperluan keluarga. Mobilnya selalu bersih dan terawat. Harga juga sesuai yang disepakati, tidak ada tambahan biaya."</p>
         <div class="testi-author">
           <div class="testi-avatar">B</div>
-          <div><div class="testi-name">Bapak Hendra Susanto</div><div class="testi-meta">Bumiagung, Rowokele · November 2024</div></div>
+          <div><div class="testi-name">Bapak Hendra Susanto</div><div class="testi-meta">Bumiagung, Rowokele · Juli 2024</div></div>
         </div>
       </div>
       <div class="testi-card">
@@ -436,7 +436,7 @@ footer ul li a:hover{color:#fff}
         <p class="testi-text">"Sewa Innova untuk acara pernikahan di Rowokele. Pelayanannya sangat profesional, mobil diantar tepat waktu dan kondisinya prima. Sangat recommended!"</p>
         <div class="testi-author">
           <div class="testi-avatar">I</div>
-          <div><div class="testi-name">Ibu Rini Lestari</div><div class="testi-meta">Giyanti, Rowokele · Desember 2024</div></div>
+          <div><div class="testi-name">Ibu Rini Lestari</div><div class="testi-meta">Giyanti, Rowokele · Agustus 2024</div></div>
         </div>
       </div>
       <div class="testi-card">
@@ -444,7 +444,7 @@ footer ul li a:hover{color:#fff}
         <p class="testi-text">"Butuh kendaraan mendadak untuk perjalanan bisnis. RentCar Pro sangat responsif, dalam 2 jam mobil sudah tiba di lokasi saya. Benar-benar solusi cepat!"</p>
         <div class="testi-author">
           <div class="testi-avatar">P</div>
-          <div><div class="testi-name">Pak Dodi Kurniawan</div><div class="testi-meta">Jatiluhur, Rowokele · Januari 2025</div></div>
+          <div><div class="testi-name">Pak Dodi Kurniawan</div><div class="testi-meta">Jatiluhur, Rowokele · September 2024</div></div>
         </div>
       </div>
       <div class="testi-card">
@@ -452,7 +452,7 @@ footer ul li a:hover{color:#fff}
         <p class="testi-text">"Paket bulanan untuk keperluan operasional sangat membantu. Hemat banyak dibanding sewa harian terus-terusan. Tim RentCar Pro juga ramah dan mudah dihubungi."</p>
         <div class="testi-author">
           <div class="testi-avatar">B</div>
-          <div><div class="testi-name">Bu Wahyuni</div><div class="testi-meta">Kalisari, Rowokele · Februari 2025</div></div>
+          <div><div class="testi-name">Bu Wahyuni</div><div class="testi-meta">Kalisari, Rowokele · Oktober 2024</div></div>
         </div>
       </div>
       <div class="testi-card">
@@ -460,7 +460,7 @@ footer ul li a:hover{color:#fff}
         <p class="testi-text">"Pertama kali sewa mobil di Rowokele, ternyata prosesnya sangat mudah via WhatsApp. Kondisi kendaraan bagus, AC dingin, perjalanan nyaman sampai tujuan."</p>
         <div class="testi-author">
           <div class="testi-avatar">P</div>
-          <div><div class="testi-name">Pak Agus Setiawan</div><div class="testi-meta">Kretek, Rowokele · Maret 2025</div></div>
+          <div><div class="testi-name">Pak Agus Setiawan</div><div class="testi-meta">Kretek, Rowokele · November 2024</div></div>
         </div>
       </div>
       <div class="testi-card">
@@ -468,7 +468,7 @@ footer ul li a:hover{color:#fff}
         <p class="testi-text">"Sewa untuk rombongan wisata 12 orang, pakai Hiace. Koordinasinya lancar, sopir pengalaman dan hafal jalan. Akan memakai lagi untuk liburan berikutnya!"</p>
         <div class="testi-author">
           <div class="testi-avatar">I</div>
-          <div><div class="testi-name">Ibu Sari Dewi</div><div class="testi-meta">Pringtutul, Rowokele · April 2025</div></div>
+          <div><div class="testi-name">Ibu Sari Dewi</div><div class="testi-meta">Pringtutul, Rowokele · Desember 2024</div></div>
         </div>
       </div></div>
   </div>
@@ -633,7 +633,7 @@ footer ul li a:hover{color:#fff}
       </div>
     </div>
     <div class="footer-copy">
-      <p>© 2026 RentCar Pro · Rental Mobil Kebumen · <a href="tel:+6285137396984" style="color:rgba(255,255,255,.5)">6285137396984</a></p>
+      <p>© 2026 RentCar Pro · Rental Mobil Kebumen · <a href="tel:+6285137396984" style="color:rgba(255,255,255,.5);text-decoration:underline">6285137396984</a></p>
     </div>
   </div>
 </footer>
